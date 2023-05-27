@@ -15,6 +15,7 @@ run this cmds: <br><br>
 
 `npx tailwindcss init`<br>
 
+next down one is a full cmd, don't spilt it in half:<br><br>
 `npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom`<br>
 
 `npm install --legacy-peer-deps -D tailwindcss postcss autoprefixer`<br>
@@ -28,7 +29,7 @@ run this cmds: <br><br>
 
 ## After building app, next steps to deploy your website/app to github pages:<br><br>
 
-1. run this cmd: *don't forget to add your own github username and repository_name* <br>
+1. run this cmd: *don't forget to add `your own github username` and `repository_name`* <br>
 `git clone <repository link example: "git@github.com:<username>/<repository>.git">`<br>
 
 2. open terminal & move into this repository usind cd.<br>
@@ -47,7 +48,7 @@ run this cmds: <br><br>
 7. configure vite.config.js file, in this file add this cmd after plugins: <br>
 `base: '/<github_repository_name>'`
 
-8. configue package.json file, in this fiel add this cmds in script:<br>
+8. configue package.json file, in this file, add this cmds in scripts:<br>
 `"deploy": "gh-pages -d dist"`
 <br><br>
 save all the files<br><br>
@@ -123,5 +124,6 @@ npm run build
 npm run deploy
 ```
 <br>
-done. wait for a few minutes, you're github page should be ready...
+done. wait for a few minutes, refresh your GitHub Page<br>
+you're github page should be ready...
 
