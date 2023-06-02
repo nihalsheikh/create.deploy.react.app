@@ -10,31 +10,31 @@ for email: `emailjs`
 **Creating React app with vite:** <br><br>
 run this cmds: <br><br>
 ```
-npm create vite@latest ./ -- --template react<br>
+npm create vite@latest ./ -- --template react
 
-npm install -D tailwindcss<br>
+npm install -D tailwindcss
 
-npx tailwindcss init<br>
+npx tailwindcss init
 ```
 
 next down one is a full cmd, don't spilt it in half:<br><br>
 ```
-npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom<br>
+npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
 
-npm install --legacy-peer-deps -D tailwindcss postcss autoprefixer<br>
+npm install --legacy-peer-deps -D tailwindcss postcss autoprefixer
 
-npx tailwindcss init -p<br>
+npx tailwindcss init -p
 
-npm install --legacy-peer-deps three<br>
+npm install --legacy-peer-deps three
 
-npm run dev<br><br>
+npm run dev
 ```
 
 ## After building app, next steps to deploy your website/app to github pages:<br><br>
 
 1. run this cmd: *don't forget to add `your own github username` and `repository_name`* <br>
 ```
-git clone <repository link example: "git@github.com:<username>/<repository>.git"><br>
+git clone <repository link example: "git@github.com:<username>/<repository>.git">
 ```
 2. open terminal & move into this repository usind cd.<br>
 
